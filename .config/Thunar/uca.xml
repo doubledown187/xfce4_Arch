@@ -1,0 +1,22 @@
+<?xml encoding="UTF-8" version="1.0"?>
+<actions>
+<action>
+	<icon>utilities-terminal</icon>
+	<name>Terminal hier öffnen</name>
+	<unique-id>1460802763268219-1</unique-id>
+	<command>exo-open --working-directory %f --launch TerminalEmulator</command>
+	<description>Beispiel für eine eigene Aktion</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
+<action>
+	<icon>leafpad</icon>
+	<name>Als Root editieren</name>
+	<unique-id>1460880149052539-1</unique-id>
+	<command>suxe leafpad %f</command>
+	<description></description>
+	<patterns>*</patterns>
+	<text-files/>
+</action>
+</actions>
